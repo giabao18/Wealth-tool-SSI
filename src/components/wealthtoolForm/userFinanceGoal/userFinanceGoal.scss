@@ -1,0 +1,129 @@
+#Input {
+    text-align : center;
+    font-weight: bold;
+}
+
+.dialog {
+    height       : 368px;
+    align-content: flex-start;
+
+    .dialog_title {
+        font-size  : 28px;
+        font-weight: bold;
+    }
+
+    .dialog_image {
+        display        : flex;
+        align-items    : center;
+        justify-content: center;
+
+        .media {
+            width : 124px;
+            height: 124px;
+        }
+    }
+}
+
+
+.carousel_wrapper {
+
+    .slider-list {
+        flex-wrap: wrap;
+
+        .carousel_card {
+            height       : 272px;
+            border-top   : 1px solid darkgray;
+            border-radius: 8px;
+            box-shadow   : 0px 2px 1px -1px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+
+            .carousel_image {
+                height: 116px;
+
+                display        : flex;
+                justify-content: center;
+                align-items    : center;
+
+                .media {
+                    height    : 88px;
+                    width     : 88px;
+                    text-align: center;
+                }
+            }
+
+            .carousel_content {
+                height: 160px;
+
+
+            }
+
+        }
+    }
+}
+
+.slider-container {
+    .slider-control-centerleft {
+        margin-left: -24px;
+    }
+
+    .slider-control-centerright {
+        margin-right: -32px;
+    }
+}
+
+@media (max-width:600px) {
+
+    //carousel
+    .carousel {
+        padding: 40px;
+
+        .carousel_wrapper .slider-list {
+            .carousel_card {
+
+                .carousel_image {
+                    .media {
+                        height: 62px;
+                        width : 62px;
+                    }
+                }
+
+                .carousel_content {
+                    .carousel_content-title {
+                        font-size: 18px;
+                    }
+
+                    .carousel_content-text {
+                        font-size: 14px;
+                    }
+                }
+            }
+        }
+    }
+
+    .btn_action {
+        .icon_action {
+            font-size: 28px;
+        }
+    }
+
+    .btn_save {
+        width: 200px;
+    }
+
+    //dialog
+    .dialog {
+        border-radius: 16px;
+
+        .dialog_title {
+            font-size: 22px;
+        }
+
+        .dialog_image .media {
+            width : 80px;
+            height: 80px;
+        }
+
+        .dialog_content {
+            font-size: 18px;
+        }
+    }
+}

@@ -1,0 +1,60 @@
+{
+    "home": {
+        "open_online_account_title": "Mở Tài Khoản Trực tuyến",
+        "overview_text": "Luôn đi đầu trong việc xây dựng những tiêu chuẩn cao nhất về sản phẩm và dịch vụ.",
+        "open_online_account_button": "Mở Tài Khoản",
+
+        "open_online_account_box_text": "Mở tài khoản online",
+        "register_iotp_box_text": "Đăng ký iOTP", 
+        "optimize_memory_box_text" : "Tối ưu bộ nhớ",
+
+        "footer": {
+            "price_board": "Bảng giá cổ phiếu",
+            "price_board_text": "Theo dõi biến động giá cổ phiếu và dòng tiền cung cầu trực tuyến của sàn chứng khoán",
+            
+            "company_analysis": "Phân tích đầu tư",
+            "company_analysis_text": "Trung tâm phân tích và đánh giá các cơ hội đầu tư tiềm năng trên thị trường chứng khoán Việt Nam",
+            
+            "wealth_tool": "Quản lý tài sản",
+            "wealth_tool_text": "Quản lý tài sản và toàn bộ kế hoạch tài chính, đầu tư tích lũy trọn đời của bạn",
+            
+            "iWealth_club": "iWealth Club",
+            "iWealth_club_text": "Nơi trao đổi và khuyến nghị các cơ hội đầu tư chứng khoán từ nhiều chuyên gia và đội ngũ phân tích SSI, cùng hàng ngàn danh mục đầu tư hiệu quả được chia sẽ bởi nhà đầu tư",
+            
+            "stock_screener": "Bộ lọc",
+            "stock_screener_text": "Tìm kiếm cổ phiếu tiềm năng dựa trên nhiều chỉ sổ và tiêu chí",
+            
+            "scopy": "sCopy",
+            "scopy_text": "Xem miễn phí các danh mục thật, hiệu quả và theo dõi giao dịch đầu tư cố phiếu hàng ngày của hàng ngàn traders tài năng tại Việt Nam"
+        }
+    },
+    "account": {
+        "login": "Đăng nhập",
+        "user_welcome": "Chào mừng bạn",
+        "user_welcome_text": "Bắt đầu quản lý tài chính của bạn dễ dàng hơn và tốt hơn",
+        "user_input_email": "Email",
+        "user_input_password": "Mật khẩu",
+        "user_forgot_password": "Quên mật khẩu",
+        "user_checkbox_remember": "Ghi nhớ tôi",
+        "user_signin_button": "ĐĂNG NHẬP",
+        "user_signin_social": "Hoặc đăng nhập với",
+        "user_not_member": "Chưa có tài khoản?",
+        "user_link_register_now": "Đăng ký ngay",
+
+        "sign_up": "Đăng Ký",
+        "noted_lowercase_character": "Ký tự chữ thường",
+        "noted_one_number": "Ký tự 1 con số",
+        "noted_uppercase_character": "Ký tự chữ in hoa",
+        "noted_character_length": "Ít nhất 8 ký tự",
+        "checkbox_update_email": "Gửi email cho tôi nếu có cập nhật tin mới",
+        "user_button_singup": "ĐĂNG KÝ",
+        "user_have_account": "Bạn đã có tài khoản?",
+        "user_link_log_in": "Đăng nhập ngay"
+    },
+    "footer" : {
+        "location": "Ðịa chỉ: 72 Nguyễn Huệ, phường Bến Nghé, Quận 1, TP HCM",
+        "phone": "Điện thoại: (84-28) 38.242.897",
+        "fax" : "Fax: (84-28) 38.242.997",
+        "follow_us": "Theo dõi chúng tôi"
+    }
+}

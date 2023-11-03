@@ -1,0 +1,24 @@
+.finance_strategy {
+    border: none !important;
+    border-radius: none !important;
+    box-shadow   : none !important;
+    overflow     : hidden;
+    width        : 100%;
+    height       : auto;
+    padding      : 12px;
+
+    .finance_strategy_box {
+        width        : 100%;
+        display      : flex;
+        position     : relative;
+        height       : calc(100vh - 115px);
+        border       : 1px solid #d9d9d9;
+        border-radius: 8px;
+
+        .finance_strategy_item {
+            height    : 100%;
+            box-sizing: border-box;
+            overflow  : hidden;
+        }
+    }
+}

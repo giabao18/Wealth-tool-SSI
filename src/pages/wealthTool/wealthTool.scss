@@ -1,0 +1,93 @@
+$background    : #f5f2ef;
+$background-box: #FFFBF5;
+$primary-color : #181818;
+$second-color  : #841818;
+
+.user_goal_wrapper {
+    background : $background;
+    height     : calc(100vh - 72px);
+    width      : 100%;
+    display    : flex;
+    align-items: center;
+    overflow   : hidden;
+
+    .user_goal_box {
+        padding: 16px;
+
+        .info_wrapper {
+            border-radius: 8px;
+
+            .indicator {
+                display       : flex;
+                flex-direction: column;
+                align-items   : center;
+                box-shadow    : none !important;
+                margin-top    : 32px;
+
+                .indicator_content {
+                    text-align     : center;
+                    display        : flex;
+                    flex-wrap      : wrap;
+                    justify-content: center;
+                }
+            }
+        }
+    }
+}
+
+
+@media (max-width: 600px) {
+    .user_goal_wrapper .user_goal_box {
+        padding: 0;
+
+        .info_wrapper {
+            display       : flex;
+            flex-direction: column;
+            height        : calc(100vh - 64px);
+            border        : none !important;
+
+            .icon_stepper .icon_step_label {
+                .stepper_form {
+                    width : 32px;
+                    height: 32px;
+                }
+
+                .icon_title {
+                    font-size: 12px;
+                }
+            }
+
+            .indicator {
+                padding: 12px;
+
+                .media {
+                    width : 68px;
+                    height: 68px;
+                }
+
+                .indicator_content {
+                    margin-top: 24px;
+
+                    .indicator_text {
+                        margin : 0;
+                        padding: 4px;
+
+                        .input {
+                            font-size: 18px;
+                        }
+                    }
+
+                    .indicator_layout {
+                        flex-wrap: wrap;
+                        margin   : 0;
+                    }
+                }
+            }
+
+            .btn_next {
+                width: 240px;
+            }
+        }
+    }
+
+}

@@ -1,0 +1,55 @@
+{
+    "home": {
+        "open_online_account_title": "Open Online Account",
+        "overview_text": "Always at the forefront of building the highest standards of products and services.",
+        "open_online_account_button": "Open An Account",
+
+        "open_online_account_box_text": "Open account online",
+        "register_iotp_box_text": "Register iOTP", 
+        "optimize_memory_box_text" : "Optimize memory",
+        
+        "footer": {
+            "price_board": "Price Board",
+            "price_board_text": "Watch real time stock prices on Vietnam stock exchanges",
+            "company_analysis": "Company Analysis",
+            "company_analysis_text": "Center for analyzing and evaluating potential investment opportunities in the Vietnamese stock market.",
+            "wealth_tool": "Wealth-tool",
+            "wealth_tool_text": "Manage your assets and financial planning, accumulate investments for your future",
+            "iWealth_club": "iWealth Club",
+            "iWealth_club_text": "A place to exchange and receive investment recommendations in securities from various experts and the SSI analysis team.",
+            "stock_screener": "Stock Screener",
+            "stock_screener_text": "Search for stocks that fit multiple criteria using our powerful filter.",
+            "scopy": "sCopy",
+            "scopy_text": "Access free, effective portfolio categories, and track daily stock investment transactions of thousands of talented traders in Vietnam."
+        }
+    },
+    "account": {
+        "login": "Login",
+        "user_welcome": "Welcome Back!",
+        "user_welcome_text": "Start managing your finance easier and better",
+        "user_input_email": "Email",
+        "user_input_password": "Password",
+        "user_forgot_password": "Forgot Password",
+        "user_checkbox_remember": "Remember me",
+        "user_signin_button": "SIGN IN",
+        "user_signin_social": "- Or continue with -",
+        "user_not_member": "Not a member?",
+        "user_link_register_now": "Register now",
+
+        "sign_up": "Sign up",
+        "noted_lowercase_character": "Lowercase characters",
+        "noted_one_number": "One number",
+        "noted_uppercase_character": "Uppercase characters",
+        "noted_character_length": "8 characters minimum",
+        "checkbox_update_email": "Email me with news and updates",
+        "user_button_singup": "SIGN UP",
+        "user_have_account": "Already have an account?",
+        "user_link_log_in": "Log in"
+    },
+    "footer" : {
+        "location": "Headquarter: 72 Nguyen Hue, Ben Nghe Ward, District 1, Ho Chi Minh City",
+        "phone": "Telephone: (84-28) 38.242.897",
+        "fax" : "Fax: (84-28) 38.242.997",
+        "follow_us": "Follow us"
+    }
+}

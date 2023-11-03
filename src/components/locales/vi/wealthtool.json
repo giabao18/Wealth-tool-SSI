@@ -1,0 +1,259 @@
+{
+    "wealth_tool": {
+        "user_target_title": "Lập kế hoạch tài chính của bạn",
+        "user_target_description": "Chỉ với 3 bước sau, bạn có thể quản lý tương lai của mình tốt hơn",
+        "icon_info_title": "Thông tin",
+        "icon_goal_title": "Mục tiêu",
+        "icon_finance_title": "Tài chính",
+        "highlight_box_text": "Thử nghĩ xem – đã bao nhiêu lần bạn cảm thấy căng thẳng hoặc lo lắng về tiền bạc?",
+        "user_sign_in_box_text": "Đăng nhập nếu đã có kế hoạch",
+        "button_next": "Tiếp tục",
+        "button_pre": "Quay lại",
+        "button_submit": "Hoàn tất",
+        "button_save": "Lưu thay đổi",
+        "button_more": "Thêm",
+        "button_invest_now": "Đầu tư ngay",
+        "yo": "tuổi"
+    },
+    "user_goal": {
+        "user_info": {
+            "Im": "Tôi ",
+            "year_old": "tuổi. ",
+            "marital_status_text": "Tình trạng hôn nhân ",
+            "single_input": " độc thân ",
+            "married_input": " đã có gia đình ",
+            "job_status_text": "Hiện tại, tôi đang ",
+            "wage_input": "làm công ăn lương",
+            "business_input": "kinh doanh tự do"
+        },
+        "finance_goal": {
+            "invest_form": {
+                "title": "Đầu tư sinh lời",
+                "accumulation_text": "Nếu tích lũy ",
+                "accumulation_input": " 10% ",
+                "money_received_text": "từ thu nhập mỗi tháng thì sẽ nhận được bao nhiêu tiền sau",
+                "money_received_input": " 10 năm",
+                "dialog": {
+                    "investment_time_text": "Tôi muốn đầu tư sinh lời trong",
+                    "year_text": "năm"
+                }
+            },
+            "goal_form": {
+                "title": "Mua sắm",
+                "shopping_text": "Nếu muốn mua xe",
+                "shopping_input": "900 triệu",
+                "shopping_time": "trong",
+                "shopping_time_input": " 5 năm, ",
+                "things_to_do": " thì cần phải làm gì?",
+                "dialog": {
+                    "value_shopping": "Tôi muốn mua sắm có giá trị",
+                    "billion": "triệu sau",
+                    "year_text": "năm nữa"
+                }
+            },
+            "education_form": {
+                "title": "Giáo dục cho con",
+                "children_education_text": "Nếu muốn cho con đi du học trong tương lai thì cần làm gì?",
+                "dialog": {
+                    "children_age_text": "Con tôi năm nay",
+                    "time_text": "tuổi. Tôi muốn cho cháu đi học năm",
+                    "program_time_text": "tuổi với chương trình học",
+                    "fee_text": "năm. Chi phí mỗi năm",
+                    "million": "triệu"
+                }
+            }
+        },
+        "finance_status": {
+            "user_saving_text": "Tôi có thể tích lũy",
+            "million": " triệu mỗi ",
+            "month_input": "tháng",
+            "quarterly_input": "quý",
+            "year_input": "năm",
+            "user_asset_text": "và đang có",
+            "user_invest_text": "triệu để đầu tư ngay"
+        }
+    },
+    "finance_strategy": {
+        "your_plan": {
+            "title": "Kế hoạch của bạn",
+            "yo": "tuổi",
+            "box_note": {
+                "click": "Ấn ",
+                "description": "để xem chi tiết và điều chỉnh khoản đầu tư của bạn"
+            },
+            "box_invest": {
+                "title": "Đầu tư của bạn",
+                "one_time_investment": "Đầu tư một lần",
+                "annually_investment": "Đầu từ định kì",
+                "invest_period_text": "triệu tại năm",
+                "month_input": "tháng",
+                "year_input": "năm",
+                "sip_text": "Đầu tư định kỳ",
+                "sip_every": "triệu mỗi",
+                "sip_time_text": "trong",
+                "sip_period_text": "năm từ năm"
+            },
+            "box_goal": {
+                "title": "Mục tiêu của bạn",
+                "user_shopping_text": "Mua sắm",
+                "value_shopping_text": "tuổi, mua sắm giá trị",
+                "million": "triệu",
+                "user_education_text": "Giáo dục cho con",
+                "value_education_period": "tuổi, chi tiêu trong",
+                "value_education_each_month": "năm, mỗi năm"
+            },
+            "box_age": {
+                "title": "Tuổi của bạn"
+            }
+        },
+        "your_assets": {
+            "title": "Tài sản của bạn",
+            "box_note": "Tài sản của bạn \" là công cụ giúp bạn theo dõi tất cả tài sản của mình. Dựa trên thông tin của bạn, chúng tôi sẽ cung cấp lời khuyên tài chính cá nhân cho bạn.\"",
+            "monthly_saving": {
+                "calculate": "Tích lũy hàng tháng : ",
+                "millions": " triệu",
+                "income": {
+                    "title": "Thu nhập",
+                    "cardBlank": "Thêm các nguồn thu nhập của bạn (tiền lương, tiền cho thuê nhà...)",
+                    "cardList": {
+                        "title": "Thu nhập",
+                        "sip_every": " triệu mỗi",
+                        "month_select": "tháng",
+                        "year_select": "năm",
+                        "cash": "Tiền mặt",
+                        "stock": "Cổ phiếu",
+                        "house": "Nhà",
+                        "car": "Xe",
+                        "wage": "Lương",
+                        "business": "Kinh doanh"
+                    },
+                    "cardDialog": {
+                        "title": "Thu nhập",
+                        "sip_every": " triệu mỗi",
+                        "sip_income_from": "Thu nhập từ",
+                        "sip_periodic": "định kỳ",
+                        "month_select": "tháng",
+                        "year_select": "năm",
+                        "wage_select": "lương",
+                        "business_select": "lợi nhuận kinh doanh"
+                    }
+                },
+                "spending": {
+                    "title": "Chi tiêu",
+                    "cardBlank": "Thêm các khoản chi tiêu (tiền sinh hoạt, tiền học phí cho con...)",
+                    "cardList": {
+                        "title": "Chi tiêu cho ",
+                        "sip_every": " triệu mỗi",
+                        "month_select": "tháng",
+                        "year_select": "năm",
+                        "forDebt": "để trả nợ",
+                        "forFamily": "cho gia đình",
+                        "forBusiness": "cho kinh doanh"
+                    },
+                    "cardDialog": {
+                        "title": "Chi tiêu",
+                        "sip_every": "triệu mỗi",
+                        "sip_spend_for": "tôi chi tiêu cho",
+                        "sip_periodic": "định kỳ",
+                        "month_select": "tháng",
+                        "year_select": "năm",
+                        "forFamily_select": "cho gia đình",
+                        "forBusiness_select": "cho công việc kinh doanh"
+                    }
+                }
+            },
+            "net_assets": {
+                "calculate": "Tài sản ròng:",
+                "millions": " triệu",
+                "debt": {
+                    "title": "Nợ",
+                    "cardBlank": "Thêm các khoản vay mà bạn đang có (bỏ qua nếu bạn không có khoản vay nào)",
+                    "cardDialog": {
+                        "title": "Nợ",
+                        "sip_loan": "Tôi có khoảng vay ",
+                        "sip_value": " trị giá ",
+                        "sip_millions": " triệu với lãi suất cho vay ",
+                        "sip_every": " % hàng ",
+                        "sip_pay": " trả ",
+                        "sip_in": " trong ",
+                        "sip_on": " vào ",
+                        "sip_months": " tháng ",
+                        "month_select": "tháng",
+                        "year_select": "năm",
+                        "principal_interest_select": "lãi và gốc cố định",
+                        "principal_select": "gốc cố định"
+                    },
+                    "cardList": {
+                        "title": "Vay để ",
+                        "sip_millions": " triệu ",
+                        "sip_interest_rate": " với lãi suất cho vay ",
+                        "sip_every": " % hàng ",
+                        "sip_pay": " trả ",
+                        "sip_in": " trong ",
+                        "sip_months": " tháng ",
+                        "month_select": "tháng",
+                        "year_select": "năm",
+                        "principal_interest_select": "lãi và gốc cố định",
+                        "principal_select": "gốc cố định"
+                    }
+                },
+                "property": {
+                    "title": "Tài sản",
+                    "cardBlank": "Thêm các tài sản của bạn (nhà, xe, ...)",
+                    "cardDialog": {
+                        "sip_have": "Tôi có ",
+                        "sip_value": " trị giá ",
+                        "sip_millions_trend": " triệu và có xu hướng",
+                        "sip_approximately": "khoảng",
+                        "sip_each": "mỗi",
+                        "sip_percentage": "%",
+                        "cash_select": "tiền mặt",
+                        "stock_select": "cổ phiếu",
+                        "house_select": "nhà",
+                        "car_select": "xe",
+                        "up_select": "tăng",
+                        "down_select": "giảm",
+                        "month_select": "tháng",
+                        "year_select": "năm"
+                    },
+                    "cardList": {
+                        "sip_millions": "triệu",
+                        "sip_trend": "xu hướng ",
+                        "sip_approximately": " mỗi năm khoảng ",
+                        "sip_each": " % mỗi ",
+                        "cash": "Tiền mặt",
+                        "stock": "Cổ phiếu",
+                        "house": "Nhà",
+                        "car": "Xe",
+                        "up_select": "tăng",
+                        "down_select": "giảm",
+                        "month_select": "tháng",
+                        "year_select": "năm"
+                    }
+                }
+            }
+        },
+        "right_panel": {
+            "col_chart_top_text": "Tùy thuộc vào mục tiêu và tình hình tài chính của bạn, chúng tôi có chiến lược đầu tư tài chính này dành cho bạn",
+            "col_chart_bot_text": "Warren Buffett từng nói: 'Tôi đã lãng phí 11 năm cuộc đời... khi chỉ mới đầu tư từ năm 11 tuổi'. Hãy bắt đầu đầu tư càng sớm càng tốt'",
+            "series_invest": "Đầu tư",
+            "series_spending": "Chi tiêu",
+            "series_recurring_profit": "Lợi nhuận định kỳ",
+            "yAxis": "Triệu",
+            "xAxis": "Tuổi",
+            "userWealth_chart": {
+                "income_chart": "Biểu đồ thu nhập hàng tháng",
+                "spending_chart": "BIểu đồ chi tiêu hàng tháng",
+                "netAssets_chart": "Biểu đồ tài sản ròng",
+                "debt_chart": "Biểu đồ nợ"
+            }
+        }
+    },
+    "invalid": {
+        "mandatory": "Không được bỏ trống ",
+        "max_value": "Giá trị tối đa là ",
+        "min_value": "Giá trị tối thiểu là ",
+        "age_value": "Tuổi tối thiểu là ",
+        "million": " triệu"
+    }
+}

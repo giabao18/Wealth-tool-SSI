@@ -1,0 +1,121 @@
+#Input_age {
+    text-align: center;
+    color: #e8e2e2;
+}
+
+.tablist {
+    border-bottom: 1px solid darkgrey;
+
+    .tablist_item {
+        color: #841818;
+        font-size: 13px;
+        font-weight: bold;
+    }
+}
+
+.tab_wrapper {
+    box-sizing: border-box;
+    height: calc(100% - 49px);
+    overflow-y: auto;
+    transition: height 500ms cubic-bezier(0.35, 0, 0.25, 1);
+
+    .tab_wrapper_plan {
+        padding: 12px;
+        margin-top: 4px;
+        position: relative;
+        overflow-x: hidden;
+        overflow-y: auto;
+        z-index: 1;
+        flex-grow: 1;
+
+        .tab_wrapper_plan_noted {
+            padding: 8px;
+        }
+
+        .tab_wrapper_plan_data {
+            border-radius: 8px;
+        }
+    }
+}
+
+.finance_list {
+    .finance_list_title {
+        padding: 8px;
+        align-items: center;
+    }
+    .finance_dialog_icon {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .finance_list_data {
+        .finance_list_card {
+            box-sizing: border-box;
+            box-shadow: none !important;
+            border: 1px solid #d8d9da;
+            border-radius: 0;
+            position: relative;
+            display: flex;
+
+            .actions {
+                position: absolute;
+                right: 0px;
+
+                .icon {
+                    width: 30px;
+                    height: 25px;
+                }
+            }
+
+            .media {
+                margin: 12px;
+                width: 32px;
+                height: 32px;
+            }
+        }
+        .finance_list_userWealth_blank {
+            box-sizing: border-box;
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            .media {
+                width: 32px;
+                height: 32px;
+            }
+        }
+    }
+}
+
+.dialog {
+    height: 100%;
+    align-content: center;
+    .dialog_title {
+        font-size: 28px;
+        font-weight: bold;
+    }
+
+    .dialog_image {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .media {
+            width: 124px;
+            height: 124px;
+        }
+    }
+}
+
+.calculation {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: '#841818';
+    color: '#E8E2E2';
+    justify-content: 'space-between';
+}

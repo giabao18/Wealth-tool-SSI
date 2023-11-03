@@ -1,0 +1,79 @@
+.login_navbar {
+    display: flex;
+
+    span {
+        padding: 0 10px;
+    }
+}
+
+.login {
+    overflow  : hidden;
+    padding   : 24px;
+    width     : 500px;
+    max-height: 700px;
+
+    .btn_close {
+        position    : absolute;
+        display     : none;
+        right       : 0;
+        margin-right: 12px;
+    }
+
+    .signup_instruction {
+        width      : 45%;
+        font-weight: 500;
+        font-size  : 16px;
+    }
+
+    .btn_submit {
+        margin-top   : 24px;
+        margin-bottom: 32px;
+        border-radius: 12px;
+        line-height  : 35px;
+        font-weight  : 600;
+        font-size    : 14px;
+
+    }
+}
+
+@media(max-width: 600px) {
+    .login {
+        width: 100%;
+
+        .btn_close {
+            display: block;
+        }
+
+        .login_form_title {
+            margin   : 0;
+            font-size: x-large;
+        }
+
+        .login_form_content {
+            margin-top: 8px;
+            font-size : 14px;
+        }
+
+        .login_social {
+            margin-top   : 16px;
+            margin-bottom: 16px;
+        }
+
+        .signup_instruction {
+            font-size: 12px;
+        }
+
+        .checkbox_email {
+            font-size: 14px;
+        }
+
+        .btn_submit {
+            margin-top   : 12px;
+            margin-bottom: 12px;
+        }
+
+        .link_suggest {
+            font-size: 12px;
+        }
+    }
+}

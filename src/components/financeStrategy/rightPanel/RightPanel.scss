@@ -1,0 +1,35 @@
+.col_chart {
+    border: none !important;
+    height: 100%;
+
+    .col_chart_top {
+        height  : calc(100% - 52px) !important;
+        overflow: auto;
+        padding : 24px;
+
+        .btn_save {
+            width: 100px;
+        }
+    }
+
+    .col_chart_bottom {
+        display      : flex;
+        align-items  : center;
+        align-content: center;
+        margin       : 0;
+        height       : 52px;
+        border-top   : 1px solid #cfcfcf;
+        box-shadow   : 0 -1px 3px 1px #a7a7a759;
+
+        .text {
+            font-weight  : bold;
+            font-size    : 14px;
+            padding-left : 12px;
+            padding-right: 12px;
+        }
+
+        .btn_invest {
+            width: 160px;
+        }
+    }
+}

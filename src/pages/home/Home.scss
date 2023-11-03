@@ -1,0 +1,215 @@
+$primary-color : #F4F4F4;
+$background    : #444445;
+
+::-webkit-scrollbar {
+    width: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #61677A;
+    border-radius   : 50px;
+}
+
+.container {
+    max-width: 1280px;
+    margin   : 0 auto;
+}
+
+.home_wrapper {
+    height          : 100%;
+    width           : 100%;
+    background-color: $background;
+    position        : relative;
+
+    .header_background {
+        background     : linear-gradient(-45deg, #841818, #2B2024, #841818, #2B2024);
+        background-size: 400% 400%;
+        animation      : gradient 15s ease infinite;
+    }
+
+    .content_background {
+        border-top    : 2px solid black;
+        padding-bottom: 120px;
+
+        .position_absolute {
+            position : absolute;
+            width    : 100%;
+            left     : 50%;
+            top      : 324px;
+            transform: translate(-50%);
+
+            .position_container {
+                width : 732px;
+                margin: auto;
+
+                .function_box {
+                    color         : $primary-color;
+                    display       : flex;
+                    flex-direction: column;
+                    align-items   : center;
+
+                    .function_box_icon {
+                        width: 52px;
+                    }
+                }
+            }
+        }
+
+        .row_list {
+            padding-top: 104px;
+        }
+    }
+}
+
+//header component
+.header_background_box {
+    padding-left: 16px;
+    padding-top : 32px;
+
+    .header_background_content {
+        margin-top: 16px;
+
+        .btn_start {
+            width: 224px;
+        }
+    }
+
+    .header_background_image {
+        display        : flex;
+        justify-content: flex-end;
+        width          : 600px;
+        height         : 320px;
+
+        .asia_image {
+            width : 500px;
+            height: 300px;
+        }
+    }
+}
+
+//body component
+.card_item {
+    .card_item-box {
+        height       : 200px;
+        border-radius: 8px;
+        background   : #2B2828;
+
+        .card_item_content {
+            padding-top: 12px;
+        }
+    }
+}
+
+
+@media(max-width: 1064px) {
+    .home_wrapper {
+        .content_background .row_list .grid_item_card {
+            flex-direction: column;
+            align-content : center;
+
+            .card_item {
+                width: 400px;
+            }
+        }
+    }
+}
+
+@media(max-width: 685px) {
+    .home_wrapper {
+        .header_background .header_background_box {
+            padding-top: 0px;
+
+            .header_background_content {
+
+                .form_content {
+                    width  : 350px;
+                    padding: 16px;
+
+                    .form_content_title {
+                        font-size: x-large;
+                    }
+
+                    .form_content_content {
+                        font-size: smaller;
+                    }
+                }
+
+                .btn_start {
+                    width: 176px;
+
+                    .btn_start_text {
+                        font-size: smaller;
+                    }
+                }
+            }
+
+            .header_background_image {
+                max-height: 256px;
+                width     : 0;
+
+                .asia_image {
+                    display: none;
+                }
+            }
+        }
+
+        .content_background {
+            .position_absolute {
+                top: 228px;
+
+                .position_container {
+                    display: grid;
+                    width  : auto;
+
+                    .function_box {
+                        .function_box_icon {
+                            width: 40px;
+                        }
+
+                        .function_box_content {
+                            font-size: small;
+                        }
+                    }
+                }
+            }
+
+            .row_list {
+                width            : 100%;
+                padding-top      : 64px;
+                // padding-bottom: 64px;
+
+                .card_item {
+                    width: 340px;
+
+
+                    .card_item-box {
+                        height: 182px;
+
+                        .card_item_title {
+                            font-size: large;
+                        }
+
+                        .card_item_content {
+                            font-size: smaller;
+                        }
+
+                    }
+                }
+            }
+        }
+    }
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}

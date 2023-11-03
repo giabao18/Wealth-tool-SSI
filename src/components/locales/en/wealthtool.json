@@ -1,0 +1,258 @@
+{
+    "wealth_tool": {
+        "user_target_title": "Set Financial Goals For Your Future",
+        "user_target_description": "With only these 3 steps, you can better manage your future",
+        "icon_info_title": "Information",
+        "icon_goal_title": "Goal",
+        "icon_finance_title": "Finance",
+        "highlight_box_text": "Think about it – how many times have you felt stressed or anxious about money?",
+        "user_sign_in_box_text": "Sign in with",
+        "button_next": "NEXT",
+        "button_pre": "BACK",
+        "button_submit": "SUBMIT",
+        "button_save": "SAVE CHANGES",
+        "button_more": "More",
+        "button_invest_now": "Invest now"
+    },
+    "user_goal": {
+        "user_info": {
+            "Im": "I'm ",
+            "year_old": " years old. ",
+            "marital_status_text": "My marital status is ",
+            "single_input": "single",
+            "married_input": "married",
+            "job_status_text": "Currently, I'm working at ",
+            "wage_input": "wage",
+            "business_input": "business"
+        },
+        "finance_goal": {
+            "invest_form": {
+                "title": "Investment",
+                "accumulation_text": "If I spend",
+                "accumulation_input": " 10% ",
+                "money_received_text": "of my monthly salary on investments, how much money will I have in",
+                "money_received_input": " 10 years",
+                "dialog": {
+                    "investment_time_text": "I want to invest within",
+                    "year_text": "year(s)"
+                }
+            },
+            "goal_form": {
+                "title": "Shopping",
+                "shopping_text": "If I want to buy a car for",
+                "shopping_input": " 900 millions ",
+                "shopping_time": "within",
+                "shopping_time_input": " 5 years, ",
+                "things_to_do": " what do I need to do?",
+                "dialog": {
+                    "value_shopping": "I want to shop with value of",
+                    "billion": "billion(s) after",
+                    "year_text": "year(s)"
+                }
+            },
+            "education_form": {
+                "title": "Education",
+                "children_education_text": "What should I do if I want my children to study aboard in the future?",
+                "dialog": {
+                    "children_age_text": "Now, my child is",
+                    "time_text": "age. My child will study abroad at",
+                    "program_time_text": "age with study program of",
+                    "fee_text": "year(s). Yearly tuition fees are",
+                    "million": "million(s)"
+                }
+            }
+        },
+        "finance_status": {
+            "user_saving_text": "I can saving ",
+            "million": " million(s) per ",
+            "month_input": " month ",
+            "year_input": " year ",
+            "user_asset_text": " and have ",
+            "user_invest_text": " million(s) to invest now"
+        }
+    },
+    "finance_strategy": {
+        "your_plan": {
+            "title": "Your Plan",
+            "yo": "y.o",
+            "box_note": {
+                "click": "Click ",
+                "description": "to see details and adjust your investment portfolio"
+            },
+            "box_invest": {
+                "title": "Your investment",
+                "one_time_investment": "One - time investment",
+                "annually_investment": "Annually investment",
+                "invest_period_text": "million(s) at the age of",
+                "month_input": " month ",
+                "year_input": " year ",
+                "sip_text": "Periodic investment",
+                "sip_every": "million(s) every",
+                "sip_time_text": "in",
+                "sip_period_text": "year(s) since"
+            },
+            "box_goal": {
+                "title": "Your finance goal",
+                "user_shopping_text": "Buy a car",
+                "value_shopping_text": "year old - buying a car, that costs",
+                "million": "million(s)",
+                "user_education_text": "Education for children",
+                "value_education_period": "year old - spending in",
+                "value_education_each_month": "years, each year"
+            },
+            "box_age": {
+                "title": "Your age"
+            }
+        },
+        "your_assets": {
+            "title": "Your Assets",
+            "box_note": " Your assets\" is a tool to help you keep track of all your assets. Based on the information you collect, we will provide personal financial advice specifically for you.\"",
+            "monthly_saving": {
+                "calculate": "Monthly saving :",
+                "millions": " millions",
+                "income": {
+                    "title": "Income",
+                    "cardBlank": "Add your income source(salary ,rent ,...)",
+                    "cardList": {
+                        "title": "Salary",
+                        "sip_every": "million(s) every",
+                        "month_select": "month",
+                        "year_select": "year",
+                        "cash": "Cash",
+                        "stock": "Stock",
+                        "house": "House",
+                        "car": "Car",
+                        "wage": "Salary",
+                        "business": "Business"
+                    },
+                    "cardDialog": {
+                        "title": "Income",
+                        "sip_every": "million(s) every",
+                        "sip_income_from": "Income form",
+                        "sip_periodic": "Periodic",
+                        "month_select": "month",
+                        "year_select": "year",
+                        "wage_select": "wage",
+                        "business_select": "business"
+                    }
+                },
+                "spending": {
+                    "title": "Spending",
+                    "cardBlank": "Add your expenses (living expense, tuition fee,...)",
+                    "cardList": {
+                        "title": "Spending ",
+                        "sip_every": "million(s) every",
+                        "month_select": "month",
+                        "year_select": "year",
+                        "forDebt": "for paying debt",
+                        "forFamily": "for family",
+                        "forBusiness": "for business"
+                    },
+                    "cardDialog": {
+                        "title": "Spending",
+                        "sip_every": "million(s) every",
+                        "sip_spend_for": "I spend for",
+                        "sip_periodic": "Periodic",
+                        "month_select": "month",
+                        "year_select": "year",
+                        "forFamily_select": "for family",
+                        "forBusiness_select": "for business"
+                    }
+                }
+            },
+            "net_assets": {
+                "calculate": "Net assets :",
+                "millions": " millions",
+                "debt": {
+                    "title": "Debt",
+                    "cardBlank": "Add the loans you currently have (skip if you don't have any loans)",
+                    "cardDialog": {
+                        "title": "Debt",
+                        "sip_loan": "I have a loan ",
+                        "sip_value": " value ",
+                        "sip_millions": " million(s) with interest rate ",
+                        "sip_every": " % every ",
+                        "sip_pay": " pay ",
+                        "sip_in": " in ",
+                        "sip_on": " on ",
+                        "sip_months": " months ",
+                        "month_select": "month",
+                        "year_select": "year",
+                        "principal_interest_select": " fixed interest and principal",
+                        "principal_select": "fixed principal"
+                    },
+                    "cardList": {
+                        "title": "Get a loan for ",
+                        "sip_millions": " million(s)",
+                        "sip_interest_rate": " with interest rate ",
+                        "sip_every": " % every ",
+                        "sip_pay": " pay ",
+                        "sip_in": " in ",
+                        "sip_months": " months ",
+                        "month_select": "month",
+                        "year_select": "year",
+                        "principal_interest_select": " fixed interest and principal",
+                        "principal_select": "fixed principal"
+                    }
+                },
+                "property": {
+                    "title": "Property",
+                    "cardBlank": "Add your properties (home, car, ...)",
+                    "cardDialog": {
+                        "title": "Property",
+                        "sip_have": "I have ",
+                        "sip_value": "value",
+                        "sip_millions_trend": " illion(s) and trend",
+                        "sip_approximately": "approximately",
+                        "sip_each": "each",
+                        "sip_percentage": "%",
+                        "cash_select": "cash",
+                        "stock_select": "stock",
+                        "house_select": "house",
+                        "car_select": "car",
+                        "up_select": "up",
+                        "down_select": "down",
+                        "month_select": "month",
+                        "year_select": "year"
+                    },
+                    "cardList": {
+                        "sip_millions": "million(s)",
+                        "sip_trend": "trend",
+                        "sip_approximately": " each year approximately",
+                        "sip_each": " % each ",
+                        "cash": "cash",
+                        "stock": "stock",
+                        "house": "house",
+                        "car": "car",
+                        "up_select": "up",
+                        "down_select": "down",
+                        "month_select": "month",
+                        "year_select": "year"
+                    }
+                }
+            }
+        },
+        "right_panel": {
+            "col_chart_top_text": "Depending on your goals and financial situation, we have this financial investment strategy for you",
+            "col_chart_bot_text": "Warren Buffett once said, 'I wasted 11 years of my life... when I started investing at age 11.' Start investing as early as possible.",
+            "series_invest": "Investment",
+            "series_spending": "Spending",
+            "series_recurring_profit": "Recurring profit",
+            "yAxis": "M",
+            "xAxis": "Age",
+            "userWealth_chart": {
+                "income_chart": "Monthly income chart",
+                "spending_chart": "Monthly spending chart",
+                "netAssets_chart": "Net assets chart",
+                "debt_chart": "Debt chart"
+            }
+        }
+    },
+    "invalid": {
+        "mandatory": "Mandatory",
+        "max_value": "Maximum is  ",
+        "min_value": "Minimum is ",
+        "age_value": "Age minimum is ",
+        "million": " million(s)"
+    }
+}
